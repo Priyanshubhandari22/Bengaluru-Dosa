@@ -1,5 +1,5 @@
 {
-  "name": "tanstack_start_ts",
+  "name": "bengaluru-dosa",
   "private": true,
   "sideEffects": false,
   "type": "module",
@@ -8,6 +8,7 @@
     "build": "vite build",
     "build:dev": "vite build --mode development",
     "preview": "vite preview",
+    "deploy": "vite build && npx wrangler deploy --config .output/server/wrangler.json --name bengaluru-dosa --var SUPABASE_URL:https://nkkyswsxuqjebitzvdwe.supabase.co --var SUPABASE_PUBLISHABLE_KEY:sb_publishable_JgCbBW9lk9j8TOe7Y2kZag_its1m7b4 --var SUPABASE_PROJECT_ID:nkkyswsxuqjebitzvdwe --var VITE_SUPABASE_URL:https://nkkyswsxuqjebitzvdwe.supabase.co --var VITE_SUPABASE_PUBLISHABLE_KEY:sb_publishable_JgCbBW9lk9j8TOe7Y2kZag_its1m7b4 --var VITE_SUPABASE_PROJECT_ID:nkkyswsxuqjebitzvdwe",
     "lint": "eslint .",
     "format": "prettier --write .",
     "test": "vitest run",
@@ -97,6 +98,7 @@
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.56.1",
     "vite": "8.1.5",
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.10",
+    "wrangler": "^4.148.0"
   }
 }
