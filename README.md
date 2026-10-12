@@ -169,6 +169,8 @@ Open [http://localhost:3000](http://localhost:3000) (or the port specified in te
 
 ## 🌐 Deployment
 
+Live link- https://bengaluru-dosa.mate73302.workers.dev/
+
 The application is structured for rapid deployment across serverless and edge infrastructure:
 
 ### Cloudflare Workers
